@@ -5,6 +5,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
 .container {
     max-width: 1590px;
 	padding: 0 35px 0 35px;
