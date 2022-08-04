@@ -1,0 +1,47 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#E5E5E5"/>
+<g id="1920" clip-path="url(#clip0_0_1)">
+<rect width="1920" height="3499" transform="translate(-214 -1768)" fill="white"/>
+<g id="&#208;&#161;&#208;&#181;&#209;&#130;&#208;&#186;&#208;&#176;">
+<g id="&#208;&#154;&#208;&#190;&#208;&#188;&#208;&#176;&#208;&#189;&#208;&#180;&#208;&#176;">
+<g id="Frame 1344">
+<g id="Frame 1413">
+<g id="Cards" clip-path="url(#clip1_0_1)">
+<rect width="1520" height="564" transform="translate(-14 -411)" fill="white"/>
+<g id="Card">
+<g id="Frame 1342">
+<g id="Frame 204424">
+<g id="Frame 1341">
+<g id="Frame 1288">
+<rect width="24" height="24" rx="12" fill="#4633B9"/>
+<rect width="24" height="24" rx="12" fill="#1767F9"/>
+<rect width="24" height="24" rx="12" fill="#4BB1BC"/>
+<rect width="24" height="24" rx="12" fill="#FFA300"/>
+<rect width="24" height="24" rx="12" fill="url(#paint0_linear_0_1)"/>
+<g id="Frame 1302">
+<path id="Vector" d="M8 11.3294L10.7853 14L16 9" stroke="black" stroke-width="3"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_1" x1="24" y1="12" x2="-6.12188e-09" y2="12" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFCC00"/>
+<stop offset="1" stop-color="#FFA300"/>
+</linearGradient>
+<clipPath id="clip0_0_1">
+<rect width="1920" height="3499" fill="white" transform="translate(-214 -1768)"/>
+</clipPath>
+<clipPath id="clip1_0_1">
+<rect width="1520" height="564" fill="white" transform="translate(-14 -411)"/>
+</clipPath>
+</defs>
+</svg>
