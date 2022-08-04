@@ -5,9 +5,14 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-a, a:link, a:visited  {
-    text-decoration: none;
+a {
+    color: #000000;
 }
+
+a:visited {
+    color: #000000;
+}
+
 
 .container {
     max-width: 1590px;
