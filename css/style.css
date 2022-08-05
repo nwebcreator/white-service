@@ -6,8 +6,6 @@ body {
 }
 
 
-
-
 .container {
     max-width: 1590px;
 	padding: 0 35px 0 35px;
@@ -19,6 +17,8 @@ body {
     color: #000000;
 }
 
+/* navigation */
+
 .nav-block {
     border-bottom: 1px solid #F0F2F4;
 }
@@ -27,7 +27,6 @@ body {
     display: flex;
 	align-items: center;
     min-height: 88px;
-
 }
 
 .nav__logo {
@@ -41,28 +40,6 @@ body {
 	position: relative;
     margin-left: 41px;
 }
-
-
-/*.nav__item:hover {
-    color: #000000;
-}
-
-.nav__item:after {
-	display: block;
-	position: absolute;
-	left: 0;
-	width: 0;
-	height: 2px;
-	background-color: #00ffd7;
-	content: "";
-	transition: width 0.3s ease-out;
-}
-
-.nav__item:hover:after,
-.nav__item:focus:after {
-	width: 100%;
-}
-*/
 
 .nav__list img {
     margin-right: 9px;
@@ -81,7 +58,6 @@ body {
 .nav__phone__time {
     font-size: 14px;
     font-weight: 500;
-
 }
 
 .nav__phone__time::before {
@@ -154,14 +130,13 @@ body {
     margin-left: 5px;
     position: relative;
     top: -3px;
-
 }
+
+/* promo */
 
 .promo-border {
     border-bottom: 1px solid #F0F2F4;
 }
-
-/* promo */
 
 .promo {
     display: flex;
@@ -188,24 +163,6 @@ body {
     z-index: -1;
 }
 
-.promo__media {
-    
-}
-
-/*.promo__media .promo__img {
-    position: absolute;
-    right: -30px;
-    top: 5px;
-
-	width: 976px;
-	height: 1030.77px;
-
-    pointer-events: none;
-    z-index: -1;
-    background: url(../img/promo/promo-img.png) 0 0 no-repeat;
-}
-*/
-
 .promo__title {
 	font-size: 80px;
 	font-weight: 800;
@@ -224,15 +181,12 @@ body {
     font-size: 18px;
     font-weight: 700;
     line-height: 21.6px;
-
     display: inline-block;
 	padding: 24px 60px;
     color: #fff;
-
 	background: linear-gradient(270deg, #FFCC00 0%, #FFA300 100%);
 	border-radius: 27px;
     position: relative;
-
 }
 
 .promo__button:before {
@@ -265,6 +219,7 @@ body {
 
 .promo__list-item {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .promo__list img {
@@ -272,7 +227,7 @@ body {
     height: 70px;
     border: 0px solid #D1D1D1;
     box-shadow: 0px 6px 30px 0px rgba(35, 25, 4, 0.15);
-    padding: 10px;
+    padding: 12px;
     border-radius: 10px;
 }
 
@@ -322,12 +277,14 @@ body {
     padding-bottom: 80px;
     background-color: #fff;
 }
+
 .specialists__title {
     font-size: 48px;
     font-weight: 700;
     line-height: 48px;
     text-align: center;
 }
+
 .specialists__text {
     margin-top: 40px;
     font-size: 26px;
@@ -335,23 +292,15 @@ body {
     line-height: 31.2px;
     text-align: center;
 }
+
 .specialists__slider {
     margin-top: 80px;
 }
 
-.slider {
-	position: relative;
-}
-
-.slider__item {
-    margin-top: 27px;
-	object-fit: cover;
-
-	transition: 0.2s ease-in;
-}
 .specialist__image {
     border-radius: 50%;
 }
+
 .specialist__name {
     margin-top: 40px;
     font-size: 26px;
@@ -359,6 +308,7 @@ body {
     line-height: 33.8px;
     text-align: center;
 }
+
 .specialist__text {
     margin-top: 16px;
     font-size: 18px;
@@ -366,13 +316,13 @@ body {
     line-height: 21.6px;
     text-align: center;
 }
+
 .specialist__works {
     margin-top: 32px;
     font-size: 16px;
     font-weight: 500;
     line-height: 19.2px;
     text-align: center;
-
 }
 
 .specialist__works::before {
@@ -407,23 +357,33 @@ body {
     top: -20px;
   }
 
+  /* slider */
+
+  .slider {
+	position: relative;
+}
+
+.slider__item {
+    margin-top: 27px;
+	object-fit: cover;
+	transition: 0.2s ease-in;
+}
+
 .slider__btn {
     position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
 	z-index: 9;
-
 	display: block;
 	width: 68px;
 	height: 68px;
 	border-radius: 50%;
-
 	display: flex;
 	align-items: center;
     border: 1px solid #D1D1D1;
     box-shadow: 0px 6px 30px 0px rgba(0, 0, 0, 0.05);
-
 }
+
 .slider__btn--prev {
     left: -70px;
 	padding-left: 26px;
@@ -434,6 +394,8 @@ body {
 	padding-right: 26px;
 	justify-content: flex-end;
 }
+
+/* service */
 
 .service {
     padding-top: 120px;
@@ -458,11 +420,16 @@ body {
     font-weight: 800;
     line-height: 60px;
 }
+
 .service-centres__text {
     margin-top: 60px;
     font-size: 20px;
     font-weight: 500;
     line-height: 28px;
+}
+
+.service-centres__text:nth-child(2n+1) {
+    margin-top: 30px;
 }
 
 .service-centres__button {
@@ -501,6 +468,10 @@ body {
         justify-content: center;
     }
 
+    .promo-border {
+        margin-top: 160px;
+    }
+
     .promo__content {
         padding-top: 80px;
         padding-bottom: 120px;
@@ -519,33 +490,171 @@ body {
 
     .promo__button {
         font-size: 16px;
-        font-weight: 700;
-        line-height: 19.2px;
         display: inline-block;
         padding: 21px 40px;
     }
 
     .promo__list {
-        row-gap: 20px;
+        row-gap: 30px;
+        column-gap: 20px;
     }
 
     .promo__list img{
-        width: 50px;
-        height: 50px;
+        width: 60px;
+        height: 60px;
     }
 
     .promo__list-text-item {
         font-size: 14px;
         font-weight: 500;
         line-height: 25px;
+        width: 200px;
     }
 
-
-
+    .promo__img img {
+        width: 800px;
+        height: 1030px;
+    }
 
     .promo__media {
-
+        width: 600px;
+        margin-top: -200px;
     }
 
+    .promo-frame {
+        padding: 20px 30px;
+        width: 420px;
+        margin-top: 700px;
+        margin-left: 205px;
+    }
+    
+    .promo-frame__text {
+        font-size: 16px;
+        margin-left: 10px;
+        padding-top: 10px;
+    }
+
+    .specialists__title {
+        padding-top: 120px;
+        font-size: 42px;
+        line-height: 42px;
+    }
+
+    .specialists__text {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    
+    .specialist__name {
+        font-size: 22px;
+        line-height: 28.6px;
+    }
+    
+    .specialist__text {
+        line-height: 19.2px;
+    }
+
+    .service-centres {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 16px;
+        row-gap: 16px;
+    }    
+
+    .service-centres__item {
+        width: 525px;
+        height: 537px;
+    }
+
+    .service-centres__item img{
+        width: 525px;
+        height: 537px;
+    }
+
+    .service-centres__title {
+        margin-top: 5px;
+        font-size: 50px;
+        line-height: 50px;
+    }
+    
+    .service-centres__text {
+        font-size: 18px;
+        line-height: 25.2px;
+    }
+    
+}
+
+
+@media (max-width: 375px) {
+    .container {
+        max-width: 375px;
+        padding: 0 30px;
+        margin: 0 auto;
+    }
+
+    .nav__logo img{
+        visibility: hidden;
+    }
+
+    .nav__logo {
+        background: url("../img/navigation/logo-mobile.svg") 0 0 no-repeat;
+        width: 168px;
+        height: 19px;
+        margin-left: 20px;
+    }
+
+    .nav__phone {
+        display: flex;
+    justify-content: flex-end;
+    }
+
+    .nav__phone__time {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .promo__img img {
+        position: absolute;
+        left: 107px;
+        max-width: unset;
+        width: 276px;
+        height: 330px;
+        pointer-events: none;
+        z-index: -1;
+    }
+
+    
+    .service-centres {
+        display: flex;
+        flex-direction: column;
+        column-gap: 16px;
+        row-gap: 16px;
+    }    
+
+    .service-centres__item {
+        width: 327px;
+        height: 234px;
+    }
+
+    .service-centres__item img{
+        width: 327px;
+        height: 234px;
+    }
+
+    .service-centres__title {
+        margin-top: 5px;
+        font-size: 50px;
+        line-height: 50px;
+    }
+    
+    .service-centres__text {
+        font-size: 18px;
+        line-height: 25.2px;
+        margin-bottom: 200px;
+    }
+    
 
 }
